@@ -39,21 +39,42 @@ a {
   text-decoration: none;
 }
 
+/* ------------------------ */
+/* --- SECTION CENTRALE --- */
+/* ------------------------ */
 
+section {
+  display: flex;
+  height: 500px;
+}
 
-
+section h2 {
+  margin: 20px 10px;
+}
 
 #aside1 {
   background-color: yellow;
+  flex: 1;
 }
 
 #aside2 {
   background-color: purple;
+  flex: 1;
 }
 
 #sectionArticles {
   background-color: cyan;
+  display: flex;
+  flex: 3;
 }
+
+article {
+  margin: 20px;
+}
+
+/* -------------- */
+/* --- FOOTER --- */
+/* -------------- */
 
 footer {
   background-color: green;
