@@ -36,7 +36,13 @@ li {
 }
 
 a {
+  display: block;
+  color: black;
   text-decoration: none;
+}
+
+a:hover {
+  background-color: tomato;
 }
 
 /* ------------------------ */
@@ -78,4 +84,8 @@ article {
 
 footer {
   background-color: green;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
