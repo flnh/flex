@@ -54,6 +54,7 @@ aside {
 
 article {
   overflow: auto;
+  text-align: justify;
 }
 
 section {
