@@ -3,6 +3,13 @@
   margin: 0;
 }
 
+@media (max-width: 1000px) {
+  #sectionArticles {
+    overflow: scroll;
+    flex-wrap: wrap;
+  }
+}
+
 /* -------------- */
 /* --- HEADER --- */
 /* -------------- */
@@ -53,7 +60,7 @@ aside {
 }
 
 article {
-  overflow: auto;
+  /* overflow: auto; */
   text-align: justify;
 }
 
