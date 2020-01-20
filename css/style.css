@@ -3,13 +3,6 @@
   margin: 0;
 }
 
-@media (max-width: 1000px) {
-  #sectionArticles {
-    overflow: scroll;
-    flex-wrap: wrap;
-  }
-}
-
 /* -------------- */
 /* --- HEADER --- */
 /* -------------- */
@@ -59,11 +52,6 @@ aside {
   flex: 1;
 }
 
-article {
-  /* overflow: auto; */
-  text-align: justify;
-}
-
 section {
   display: flex;
   height: 600px;
@@ -85,10 +73,15 @@ section h2 {
   background-color: cyan;
   display: flex;
   flex: 3;
+  text-align: justify;
+  overflow: auto;
+  flex-wrap: wrap;
 }
 
 article {
   margin: 20px;
+  display: flex;
+  flex: 1;
 }
 
 /* -------------- */
